@@ -1,9 +1,5 @@
 @charset "Utf-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
 header{
     background-color: black;
@@ -20,30 +16,8 @@ header>h1{
     text-shadow: 2px 2pxx 0px rgba(0, 0, 0, 267);
 }
 
-header>p{
-    font-size: 1.2em;
-    color: white;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
 
-main>{
-background-color: white;
-min-width: 300px;
-max-width: 1000px;
-margin: auto;
-margin-bottom: 30px;
-padding: 20px;
-box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.50);
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-}
 
-main p{
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 1em;
-    line-height: 2em;
-}
+
+
+
