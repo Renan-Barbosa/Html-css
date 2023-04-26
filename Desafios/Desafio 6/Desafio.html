@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+   thead th{
+    text-align: center;
+   
+   }
+   
+    tbody th{
+    text-align: left;
+   }
+   thead > tr{
+    background-color: lightgray;
+   }
+   
+   tr.destaque{
+    background-color: lightgray;
+   }
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Área</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <td >nota 1</td>
+                <td>nota 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td>10</td>
+                <td>9.9</td>
+                <td>9.9</td>
+            </tr>
+            <tr>
+                <td>Fisíca</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>8</td>
+                <td>9</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr class="destaque">
+             <th colspan="4">Média de Exatas</th>
+            <td>10</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Humanas</td>
+                <td>História</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+            </tr>
+            <tr class="destaque">
+                <th colspan="4">Média de Humanas</th>
+               <td>10</td>
+        </tbody>
+    </table>
+</body>
+</html>
