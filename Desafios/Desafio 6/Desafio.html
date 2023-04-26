@@ -26,9 +26,7 @@
     tbody th{
     text-align: left;
    }
-   thead > tr{
-    background-color: lightgray;
-   }
+  
    
    tr.destaque{
     background-color: lightgray;
@@ -36,17 +34,19 @@
 </style>
 </head>
 <body>
+    
     <table>
+       
         <thead>
-            <tr>
+            <tr class="destaque">
                 <th scope="rowgroup" rowspan="2">Área</th>
                 <th rowspan="2">Disciplina</th>
                 <th colspan="2">Notas</th>
                 <th rowspan="2">Média</th>
             </tr>
-            <tr>
-                <td >nota 1</td>
-                <td>nota 2</td>
+            <tr class="destaque">
+                <th scope="rowgroup">nota 1</th>
+                <th scope="rowgroup">nota 2</th>
             </tr>
         </thead>
         <tbody>
