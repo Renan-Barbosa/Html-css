@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente, amet voluptas aliquid, porro tempora, quas eligendi nobis numquam deserunt rem quos? Laudantium quia iure ex deleniti distinctio excepturi iste.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione? Amet voluptate reprehenderit modi quo eius dolorem provident est temporibus distinctio! Porro harum reprehenderit provident illo corrupti libero, natus iste.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Faça uma escolha</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione? Amet voluptate reprehenderit modi quo eius dolorem provident est temporibus distinctio! Porro harum reprehenderit provident illo corrupti libero, natus iste.</p><img src='imagens/Hamburger2.png'>">
+        <p>Infelizmente seu navegador não é compativel com isso!</p>
+    </iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis dolores quidem soluta officia error culpa veritatis minima quasi a natus nihil provident voluptates vitae sit perspiciatis, dicta qui, animi eveniet?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, consectetur! Quas officia, cum natus vitae cumque laborum excepturi iste ad quo exercitationem nemo architecto fugiat repudiandae error. Molestias, delectus odio.</p>
+</body>
+</html>
