@@ -3,11 +3,13 @@
 
 body{
     height: 100%;
-    margin: 0;
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: darkviolet;
+    
 }
+
 
 
 .card{
@@ -15,13 +17,14 @@ body{
     width: 300px;
     height: 425px;
     border: 10px solid  #9612eb;
-    margin: 60px auto 0 auto;
+    margin: 100px auto 0 auto;
     box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5)),url(https://img.freepik.com/vetores-premium/baloes-coloridos-com-mensagem-de-feliz-aniversario_8443-145.jpg?w=2000);
-    background-position: center;
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #e6f0e6;    
+    background-color: #e6f0e6;  
+      
 }
 .card .text-container{
     width: 80%;
@@ -98,5 +101,6 @@ body{
 {
     box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
     border-radius: 5px;
+    
 }
     
