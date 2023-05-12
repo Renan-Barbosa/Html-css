@@ -3,7 +3,10 @@
 
 body{
     height: 100%;
-    
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 425px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: darkviolet;
@@ -15,7 +18,7 @@ body{
 .card{
     position: absolute;
     width: 300px;
-   height: 425px;
+    height: 425px;
     border: 10px solid  #9612eb;
     margin: auto;
     left: 0;
@@ -108,4 +111,8 @@ body{
     border-radius: 5px;
     
 }
-    
+  .card audio{
+    backface-visibility: visible;
+    align-items: bottom center;
+  }  
+  
