@@ -8,15 +8,25 @@ body{
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: darkviolet;    
+    background-color: darkviolet;
+     
+}
+
+div{
+    min-width: auto;
+    min-height: auto;
+    max-width: auto;
+    max-height: auto;
 }
 
 
 
 .card{
+    display: flexbox;
+    grid: auto;
     position: absolute;
-    width: 300px;
-    height: 425px;
+    height: 58%;
+    width: 32%;
     border: 10px solid  #9612eb;
     margin: auto;
     left: 0;
@@ -47,8 +57,8 @@ body{
     
 }
 .card p{
-    font-size: 1.1em;
-    line-height: 1.4;
+    font-size: 20vmin;
+    line-height: 1.9;
     font-family: 'Nobile';
     color: #331717;
     font-style: italic;
