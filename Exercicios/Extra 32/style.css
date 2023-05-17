@@ -8,7 +8,7 @@ body{
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: darkviolet;
+    background-color: darkmagenta;
      
 }
 
@@ -25,8 +25,8 @@ div{
     display: flexbox;
     grid: auto;
     position: absolute;
-    height:  40em;    
-    width: 40em;
+    height:  425px;    
+    width: 300px;
     border: 10px solid  #9612eb;
     margin: auto;
     left: 0;
@@ -57,7 +57,7 @@ div{
     
 }
 .card p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     line-height: 1.9;
     font-family: 'Nobile';
     color: #331717;
