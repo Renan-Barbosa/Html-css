@@ -25,8 +25,8 @@ div{
     display: flexbox;
     grid: auto;
     position: absolute;
-    height: 58%;
-    width: 32%;
+    height:  40em;    
+    width: 40em;
     border: 10px solid  #9612eb;
     margin: auto;
     left: 0;
@@ -120,5 +120,17 @@ div{
     
 }
   
-
-  
+iframe#fotos{
+    position: relative;
+    top: 7%;
+    left: 0%;
+    width: 298px;
+    height: 419px;
+}
+iframe#fotos2{
+    position: relative;
+    top: 9%;
+    left: -1%;
+    width: 300px;
+    height: 425px;
+}  
